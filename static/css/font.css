@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'purpleboat-aliyun-icon';
+  src:  url('../fonts/purpleboat-aliyun-icon.eot');
+  src:  url('../fonts/purpleboat-aliyun-icon.eot#iefix') format('embedded-opentype'),
+    url('../fonts/purpleboat-aliyun-icon.ttf') format('truetype'),
+    url('../fonts/purpleboat-aliyun-icon.woff') format('woff'),
+    url('../fonts/purpleboat-aliyun-icon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'purpleboat-aliyun-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-downloaded:before {
+  content: "\e900";
+}
+.icon-error:before {
+  content: "\e901";
+}
+.icon-right:before {
+  content: "\e902";
+}
+.icon-tag:before {
+  content: "\e903";
+}
