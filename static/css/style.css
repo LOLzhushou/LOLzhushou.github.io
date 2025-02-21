@@ -1,65 +1,65 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: none;
-    cursor: default;
+    边缘: 0;
+    填料: 0;
+    边界: 0;
+    概述: 没有人;
+    光标: 系统默认值;
 
-    font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+    字体系列: -苹果系统, 方平SC ', 微软雅黑, 天线, 无衬线字体;
 }
 
-:root {
-    --main-color: rgba(48 97 222 / 1);
+:根 {
+-主色:rgba(48 97 222 / 1);
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+    文本装饰: 没有人;
+    颜色: 继承;
 }
 
-#nav-header {
-    z-index: 999;
+#导航标题{
+    z指数: 999;
 
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
+    背景颜色:# dfbfeb
+    位置: 固定的；不变的;
+    顶端: 0;
+    左边的: 0;
 
-    height: 72px;
-    width: 100%;
+    高度: 72像素;
+    宽度: 100%;
 }
 
-#nav-header .nav-left-block {
-    height: 100%;
-    float: left;
+#导航标题。导航-左侧-阻止{
+    高度: 100%;
+    漂浮物: 左边的;
 }
 
-#nav-header .nav-right-block {
-    height: 100%;
-    float: right;
+#导航标题。导航-右侧-阻止{
+    高度: 100%;
+    漂浮物: 正确;
 }
 
-#nav-header .nav-logo {
-    margin: 16.5px 30px;
-    float: left;
-    position: relative;
+#导航标题。导航标志{
+    边缘: 16.5像素 30像素;
+    漂浮物: 左边的;
+    位置: 亲戚;
 
-    width: 127px;
-    height: 39px;
+    宽度: 127像素;
+    高度: 39像素;
 }
 
-#nav-header .nav-tab {
-    height: 100%;
-    float: left;
-    position: relative;
-    list-style: none;
+#导航标题。导航标签{
+    高度: 100%;
+    漂浮物: 左边的;
+    位置: 亲戚;
+    列表样式: 没有人;
 }
 
-#nav-header .nav-tab::after {
-    content: '';
-    display: block;
+#导航标题。导航标签:在...之后 {
+    内容: '';
+    显示: 街区;
 
-    position: absolute;
+    位置: 绝对的;
     width: 1px;
     height: 28px;
     background-color: black;
